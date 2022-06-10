@@ -1,0 +1,16 @@
+name: azure_sdk
+description: |
+  A trivial Azure SDK client.
+version: 1.0.0
+homepage: https://github.com/vricosti/azure-sdk-for-dart.git
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  http: ^0.13.4
+  crypto: ^3.0.1
+
+dev_dependencies:
+  lints: ^1.0.1
+  test: ^1.16.8
